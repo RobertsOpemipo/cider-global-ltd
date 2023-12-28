@@ -1,4 +1,30 @@
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/leaguespartan/v8/BwkgfmPnbuXfVpCuPlZfCwLUuEpTyoU.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.gstatic.com/s/leaguespartan/v8/BwkgfmPnbuXfVpCuPlZfCwLUuElJyoU.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrJJLddw.ttf') format('truetype');
+}
 /* Shared Color Scheme */
 :root {
     --primary-color: #3498db;
@@ -12,6 +38,20 @@
             /* Yellow background color */
             --blue-color: #3498db;
             /* Blue color */
+}
+/* styles.css (or your CSS file) */
+
+
+
+/* Apply the fonts to the body and headings */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'League Spartan', sans-serif;
 }
 /* styles/AboutUs.css */
 
