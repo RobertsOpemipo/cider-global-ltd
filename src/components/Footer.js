@@ -1,47 +1,45 @@
 import React from 'react';
 import {
-    FaFacebookSquare,
-    FaGithubSquare,
-    FaInstagram,
-    FaTwitterSquare,
-    FaLinkedin,
+  FaFacebookSquare,
+  FaGithubSquare,
+  FaInstagram,
+  FaTwitterSquare,
+  FaLinkedin,
 } from 'react-icons/fa';
 import Cider from '../assets/cider.png';
 
 const Footer = () => {
-    return (
-        <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white bg-[#0400ff]'>
-        <div className='mb-8 lg:mb-0'>
-            <a href='#'>
-            <img
-                src={Cider}
-                alt=''
-                className='w-150 h-auto max-h-20 object-contain transition-transform transform hover:scale-110'
-            />
-            </a>
-            <p className='mt-4'>
-            Block 176, Flat3, Zone B.
-            Iba Housing Estate,
-            Iba Lagos
-            </p>
-            <div className='flex justify-between mt-6'>
-            <a href='#'>
-                <FaLinkedin size={30} />
-            </a>
-            <a href='#'>
-                <FaFacebookSquare size={30} />
-            </a>
-            <a href='#'>
-                <FaGithubSquare size={30} />
-            </a>
-            <a href='#'>
-                <FaInstagram size={30} />
-            </a>
-            <a href='#'>
-                <FaTwitterSquare size={30} />
-            </a>
-            </div>
+  return (
+    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white bg-[#0400ff]">
+      <div className="mb-8 lg:mb-0 md:ml-0">
+        <a href="#">
+          <img
+            src={Cider}
+            alt=""
+            className="w-150 h-auto max-h-20 object-contain transition-transform transform hover:scale-110"
+          />
+        </a>
+        <p className="mt-4">
+          Block 176, Flat3, Zone B. Iba Housing Estate, Iba Lagos
+        </p>
+        <div className="flex justify-center space-x-4 mt-6">
+          <a href="#">
+            <FaLinkedin size={30} />
+          </a>
+          <a href="#">
+            <FaFacebookSquare size={30} />
+          </a>
+          <a href="#">
+            <FaGithubSquare size={30} />
+          </a>
+          <a href="#">
+            <FaInstagram size={30} />
+          </a>
+          <a href="#">
+            <FaTwitterSquare size={30} />
+          </a>
         </div>
+      </div>
 
         <div className='lg:col-span-3 lg:flex justify-between flex-wrap mt-6'>
             <div className='mb-8 lg:mb-0'>

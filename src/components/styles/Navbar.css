@@ -27,3 +27,69 @@
 .mySvg {
     transform-origin: bottom;
 }
+
+/* src/components/styles/Navbar.css */
+
+/* Existing styles ... */
+
+/* Add the following media query for smaller screens */
+@media (max-width: 482px) {
+    .mySvg {
+        display: none;
+        /* Hide the SVG wave-like design on smaller screens */
+    }
+
+    .fixed {
+        height: auto;
+        /* Allow the navigation bar to adjust its height based on content */
+    }
+
+    .flex {
+        flex-direction: column;
+        /* Stack flex items vertically on smaller screens */
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .navbar-link {
+        width: 100%;
+        /* Make the navigation links full width on smaller screens */
+        text-align: center;
+        /* Center text */
+    }
+
+    /* Add any other responsive styles as needed */
+}
+
+/* src/components/styles/Navbar.css */
+
+/* Existing styles ... */
+
+/* Add the following media queries for smaller screens */
+@media (max-width: 768px) {
+    .mySvg {
+        display: none;
+        /* Hide the SVG wave-like design on screens up to 768px */
+    }
+
+    .fixed {
+        height: auto;
+        /* Allow the navigation bar to adjust its height based on content */
+    }
+
+    .flex {
+        flex-direction: column;
+        /* Stack flex items vertically on screens up to 768px */
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .navbar-link {
+        width: 100%;
+        /* Make the navigation links full width on screens up to 768px */
+        text-align: center;
+        /* Center text */
+    }
+
+    /* Add any other responsive styles as needed */
+}

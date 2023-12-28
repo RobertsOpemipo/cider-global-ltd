@@ -134,3 +134,29 @@
     filter: blur(50%);
     /* Adjust the blur amount as needed */
 }
+
+@media (max-width: 768px) {
+    .hero-content p {
+        font-size: 10px;
+        /* Adjust the font size as needed */
+    }
+}
+
+@media (max-width: 482px){
+    .hero-content p {
+            font-size: 0px;
+            /* Adjust the font size as needed */
+        }
+        
+    .hero-content h1 {
+            font-size: 10px;
+            /* Adjust the font size as needed */
+        }
+    
+        .separator {
+            border: 0px solid #fff;
+            /* margin: 3px 4px; */
+            /* Shorten the line */
+        }
+    
+}

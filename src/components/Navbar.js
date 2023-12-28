@@ -92,7 +92,7 @@ const Navbar = () => {
                   {link.hasDropdown && (
                     <span className="ml-2">
                       {openDropdown === index ? <AiOutlineUp /> : <AiOutlineDown />}
-                    </span>
+                    </span> 
                   )}
                 </a>
                 {link.hasDropdown && (
