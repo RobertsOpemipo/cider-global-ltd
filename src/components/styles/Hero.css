@@ -1,0 +1,136 @@
+/* src/components/styles/Hero.css */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero-container {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    /* Align items to the bottom */
+    justify-content: space-between;
+    /* Add space between items */
+    padding: 20px;
+    /* Adjust padding as needed */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #000);
+}
+
+.hero-content {
+    z-index: 2;
+    animation: fadeIn 1s ease-in-out;
+    text-align: left;
+    /* Align text to the left */
+}
+
+.hero-content.with-padding {
+    padding: 20px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+}
+
+.box {
+    display: flex;
+    /* Display flex for side-by-side layout */
+    align-items: center;
+    /* Center items vertically in each box */
+    text-align: left;
+    /* Align text to the left */
+    color: #fff;
+    margin: 0 15px;
+    /* Add margin between boxes */
+    padding: 10px;
+    /* Add padding for spacing */
+    border-right: 1px solid #fff;
+    /* Add vertical line between boxes */
+}
+
+.box:last-child {
+    border-right: none;
+    /* Remove border for the last box */
+}
+
+.icon {
+    margin-right: 5px;
+    /* Adjust margin between text and icon */
+}
+
+/* Add hover effect */
+.box:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Remove background image from ::before */
+.hero-container::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    /* Use a background color instead of an image */
+    /* z-index: -1; */
+}
+
+/* Add the following styles for rounded edges */
+.hero-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* height: 30px; */
+    /* Adjust the height as needed for the rounded part */
+    background: #fff;
+    /* Set your desired background color */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* Additional styles for the bottom-right text */
+.bottom-right-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+.value-text {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+}
+
+.separator {
+    border: 1px solid #fff;
+    margin: 3px 4px;
+    /* Shorten the line */
+}
+
+/* Additional styles for the blurry image */
+.blur-image {
+    filter: blur(50%);
+    /* Adjust the blur amount as needed */
+}

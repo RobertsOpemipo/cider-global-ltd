@@ -1,0 +1,88 @@
+
+/* Shared Color Scheme */
+:root {
+    --primary-color: #3498db;
+    /* Blue */
+    --secondary-color: #ffffff;
+    /* White */
+    --background-color: #f2f2f2;
+    /* Light Gray */
+    /* index.css */
+            --yellow-background: #f4d03f;
+            /* Yellow background color */
+            --blue-color: #3498db;
+            /* Blue color */
+}
+/* styles/AboutUs.css */
+
+/* ... (existing styles) */
+
+.horizontal-line {
+  position: relative;
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+.horizontal-line::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #fff; /* Color of the horizontal line */
+}
+
+.cute-line {
+  position: absolute;
+  top: -5px; /* Adjust vertical position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px; /* Width of the cute line */
+  height: 10px; /* Height of the cute line */
+  background-color: #fff; /* Color of the cute line */
+  clip-path: polygon(0 0, 100% 0, 50% 100%); /* Triangle shape */
+}
+
+/* AboutUs.css */
+
+/* styles/AboutUs.css */
+
+/* ... (existing styles) */
+
+.horizontal-line {
+    position: relative;
+    margin: 40px 0;
+    /* Adjust margin as needed */
+}
+
+.horizontal-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    /* Adjust height as needed */
+    background-color: #3498db;
+    /* Change color to your preferred color */
+    transform: translateY(-50%);
+    border-radius: 1px;
+    /* Add border-radius for a slight curve */
+}
+
+.cute-line {
+    position: absolute;
+    top: -8px;
+    /* Adjust vertical position for better alignment */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    /* Increase width for better visibility */
+    height: 15px;
+    /* Increase height for better visibility */
+    background-color: #3498db;
+    /* Change color to your preferred color */
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    /* Triangle shape */
+}
+/* WhatWeDo.css */
+
+
+/* ... (rest of the styles) */

@@ -1,0 +1,29 @@
+/* src/components/styles/Navbar.css */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.navbar-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.fixed-sidebar {
+    z-index: 100;
+    /* Choose a higher z-index value */
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* Navbar.css */
+.mySvg {
+    transform-origin: bottom;
+}
