@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    /* padding: 5px; */
     position: relative;
     animation: fadeIn 1s ease-in-out;
     margin-top: -20px;
@@ -48,3 +48,36 @@
         opacity: 1;
     }
 }
+
+/* styles/AboutUs.css */
+
+/* Existing styles ... */
+
+/* Add the following media query for smaller screens */
+@media (max-width: 768px) {
+    .big-title {
+        font-size: 4vw;
+        /* Adjust the font size using viewport width */
+        margin-bottom: 10px;
+        /* Optional: Adjust the margin-bottom as needed */
+    }
+
+    .content {
+        padding: 0 20px;
+        /* Optional: Adjust the padding for smaller screens */
+    }
+
+    .text-container {
+        margin-top: 10px;
+        /* Optional: Adjust the margin-top as needed */
+    }
+
+    .content p {
+        font-size: 2vw;
+        /* Adjust the font size using viewport width */
+        margin-bottom: 1em;
+        /* Optional: Adjust the margin-bottom as needed */
+    }
+}
+
+/* Existing styles ... */
