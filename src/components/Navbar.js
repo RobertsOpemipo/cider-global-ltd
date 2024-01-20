@@ -9,7 +9,7 @@ const Navbar = () => {
   const Links = [
     { name: "Home", link: "/" },
     { name: "Expertise", hasDropdown: true, dropdownLinks: [
-      { name: "Migration to Public Cloud", link: "/subpage1" },
+      { name: "Migration to Public Cloud", link: "/cloud" },
       { name: "Analytics and Data Management", link: "/subpage2" },
       { name: "Business Integration and Automation", link: "/subpage2" },
     ] },
@@ -28,10 +28,10 @@ const Navbar = () => {
       { name: "Custom Applications", link: "/subpage6" },
     ] },
     { name: "Company", hasDropdown: true, dropdownLinks: [
-      { name: "Who We Are", link: "/subpage7" },
-      { name: "Leadership Team", link: "/subpage7" },
-      { name: "Careers", link: "/subpage7" },
-      { name: "Our Customers", link: "/subpage8" },
+      { name: "Who We Are", link: "/about" },
+      { name: "Leadership Team", link: "/about" },
+      { name: "Careers", link: "/about" },
+      { name: "Our Customers", link: "/about" },
     ] },
     { name: "Contact", link: "/contact" },
   ];
