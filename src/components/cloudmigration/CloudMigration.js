@@ -10,6 +10,7 @@ import {
   AiOutlineDeploymentUnit,
   AiOutlineAntDesign
 } from 'react-icons/ai';
+import './styles/CloudMigration.css'
 
 const CloudMigrationSection = () => {
   const [accordionOpen, setAccordionOpen] = useState(0);
@@ -24,6 +25,8 @@ const CloudMigrationSection = () => {
 
   return (
     <section className="py-16">
+      
+
       {/* Faster Time-to-Cloud */}
       <div className="bg-white shadow-lg rounded-lg p-8 m-4 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 toCloud_left aos-init aos-animate" data-aos="flip-up">

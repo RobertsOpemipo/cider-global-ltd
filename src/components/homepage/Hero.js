@@ -1,4 +1,3 @@
-// src/components/Hero.js
 import React from 'react';
 import '../styles/Hero.css';
 import { FaGlobe, FaBuilding, FaClipboard, FaMoneyBill } from 'react-icons/fa';
@@ -29,9 +28,9 @@ const Hero = () => {
             {/* <FaMoneyBill size={10} color="#fff" /> */}
           </div>
         </div>
-
-        
       </div>
+      {/* Hide the separator on smaller screens */}
+      <div className="separator"></div>
     </header>
   );
 };

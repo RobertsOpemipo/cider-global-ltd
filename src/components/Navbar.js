@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 right-0 h-16 text-white z-50">
         <div className="flex justify-between items-center h-full m-w-[1240px] mx-auto px-4">
           <div className="flex items-center">
-            <a href="#">
+            <a href="/">
               <img
                 src={Cider}
                 alt=""
